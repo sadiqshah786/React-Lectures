@@ -1,0 +1,17 @@
+.banner-wrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 968px;
+    margin: 30px auto;
+    align-items: center;
+}
+
+.img-wrapper img {
+    width: 600px;
+    height: 600px;
+    object-fit: contain;
+}
+
+.rotateImg {
+    flex-direction: row-reverse;
+}
