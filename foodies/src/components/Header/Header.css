@@ -1,0 +1,13 @@
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 968px;
+    margin: 30px auto;
+    align-items: center;
+}
+
+.header-wrapper ul {
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+}

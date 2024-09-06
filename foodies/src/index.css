@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --primary: hsl(45, 90%, 60%);
+  --sec: hsl(45, 90%, 80%);
+}
+
+a {
+  text-decoration: none;
+}
