@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --primary: hsl(45, 90%, 60%);
+  --sec: hsl(45, 90%, 80%);
+}
+
+a {
+  text-decoration: none;
+}
+
+.active {
+  position: relative;
+}
+
+.active:before {
+  content: '';
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background: var(--primary);
+  top: 25px;
+  left: 50%;
+  border-radius: 100%;
+}

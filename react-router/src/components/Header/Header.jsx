@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import Button from '../common/Button/Button'
 import './Header.css';
 
@@ -10,22 +11,29 @@ const Header = () => {
             <div className="navbar">
                 <ul>
                     <li>
-                        <a href="#">Home</a>
+                        <NavLink to='/'>Home</NavLink>
                     </li>
                     <li>
-                        <a href="#">About</a>
+                        <NavLink to='/about'>About Us</NavLink>
                     </li>
                     <li>
-                        <a href="#">Services</a>
+                        <NavLink to='/services'>Services</NavLink>
                     </li>
                     <li>
-                        <a href="#">Contact</a>
+                        <NavLink to='/contact'>Contact Us</NavLink>
                     </li>
                 </ul>
             </div>
             <div className="btn_wrapper">
-                <Button text="Order Now" />
-
+                <NavLink to='/order-now'>
+                    <Button text="Order Now" />
+                </NavLink>
+                <NavLink to='/sign-in'>
+                    <Button text="SignIn" />
+                </NavLink>
+                <NavLink to='/sign-up'>
+                    <Button text="SignUp" />
+                </NavLink>
 
             </div>
         </div>

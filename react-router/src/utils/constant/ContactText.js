@@ -15,7 +15,7 @@ export const contactList = [
 
     },
     {
-        spanText: "Location"
+        spanText: "Location",
         text: "Planet Earth",
     }
 ]
